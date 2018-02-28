@@ -213,5 +213,5 @@ int main(int argc, char** argv)
   t1.join();
   std::cout << "Average reaction latency: " <<
 	    std::fixed << std::setprecision(6) << latency_sum / latency_samples << std::endl;
-  return -1;
+  return 0;
 }
